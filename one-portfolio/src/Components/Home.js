@@ -7,9 +7,8 @@ function Home() {
   return (
     <div
       name="home"
-      className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-800"
-    >
-      <div className=" max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4">
+      className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-800 py-4">
+      <div className=" max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4">
         <div className="flex flex-col justify-center h-full px-4">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Front-End Web Developer

@@ -36,7 +36,7 @@ function SocialLinks() {
                 </>
 
             ),
-            href: 'eugenio.kennethcleofas@gmail.com',
+            href: 'eugenio.kennethcleofas@gmail.com = Feedback&body = Message',
         },
         {
             id: 4,
@@ -46,8 +46,7 @@ function SocialLinks() {
                 </>
 
             ),
-            // Resume to be added later
-            href: '/',
+            href: '/Resume.pdf',
             style: 'rounded-br-md',
             download: true,
         },
