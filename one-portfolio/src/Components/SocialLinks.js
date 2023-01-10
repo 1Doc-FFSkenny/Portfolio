@@ -46,7 +46,7 @@ function SocialLinks() {
                 </>
 
             ),
-            href: '/Resume.pdf',
+            href: '/resume.pdf',
             style: 'rounded-br-md',
             download: true,
         },
