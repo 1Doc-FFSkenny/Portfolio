@@ -76,8 +76,8 @@ const experiences = [
 
 function Experience() {
     return (
-        <div id="experience" className="w-full h-full bg-gradient-to-b from-gray-800 to-black text-white">
-            <div className="max-w-screen-2xl mx-auto py-36 text-center md:text-left">
+        <div id="experience" className="w-full h-full bg-gradient-to-b from-gray-800 to-black text-white px-4">
+            <div className="max-w-screen-xl mx-auto py-36 text-center md:text-left">
                 <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-white font-bold pb-8 ">
                     My Tech Stack
                 </h2>

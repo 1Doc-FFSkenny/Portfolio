@@ -39,8 +39,8 @@ function Portfolio() {
     ]
 
     return (
-        <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-full'>
-            <div className='max-w-screen-2xl py-36  mx-auto flex flex-col justify-center w-full h-full'>
+        <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-full '>
+            <div className='max-w-screen-xl py-36  mx-auto flex flex-col justify-center w-full h-full px-4'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-gray-500 px-4 md:px-0'>Portfolio</p>
                     <p className='py-6 px-4 md:px-0'>Check out some of my work right here</p>
