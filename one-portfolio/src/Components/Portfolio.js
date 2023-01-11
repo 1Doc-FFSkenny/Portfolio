@@ -3,7 +3,6 @@ import Navbar from './Navbar';
 
 import Eagro from '../img/Eagro.png';
 import Plantify1 from '../img/Plantify1.png';
-import Plantify2 from '../img/Plantify2.png';
 import Sappi from '../img/Sappi.png';
 import vetAdmin from '../img/Vetadmin.png';
 
@@ -40,11 +39,11 @@ function Portfolio() {
     ]
 
     return (
-        <div className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-full'>
-            <div className='max-w-screen-xl py-36  mx-auto flex flex-col justify-center w-full h-full'>
+        <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-full'>
+            <div className='max-w-screen-2xl py-36  mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-gray-500'>Portfolio</p>
-                    <p className='py-6'>Check out some of my work right here</p>
+                    <p className='text-4xl font-bold inline border-gray-500 px-4 md:px-0'>Portfolio</p>
+                    <p className='py-6 px-4 md:px-0'>Check out some of my work right here</p>
                 </div>
                 <div className='items-baseline grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0'>
                     {portfolio.map(({ id, src, link, href }) =>

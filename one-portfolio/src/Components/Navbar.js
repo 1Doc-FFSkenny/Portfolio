@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 function Navbar() {
 
@@ -15,18 +16,20 @@ function Navbar() {
 
         {
             id: 2,
-            link: 'About'
+            link: 'about'
         },
 
         {
             id: 3,
-            link: 'experience'
+            link: 'portfolio'
         },
 
         {
             id: 4,
-            link: 'portfolio'
+            link: 'experience'
         },
+
+
         {
             id: 5,
             link: 'contact'
@@ -47,7 +50,9 @@ function Navbar() {
 
 
                     {links.map(({ id, link }) => (
-                        <li key={id} className="px-4 cursor-pointer uppercase font-medium text-whitehover:scale-105 duration-200">{link}</li>
+                        <li key={id} className="px-4 cursor-pointer uppercase font-medium text-whitehover:scale-105 duration-200">
+                            <Link to={link} smooth duration={500}>{link}</Link>
+                        </li>
                     ))}
 
 
@@ -64,7 +69,10 @@ function Navbar() {
                     // mobile menu
                     <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-indigo-300 to-slate-800'>
                         {links.map(({ id, link }) => (
-                            <li key={id} className="px-4 cursor-pointer py-6 text-2xl">{link}</li>
+                            <li key={id} className="px-4 cursor-pointer py-6 text-2xl">
+                                <Link onClick={() => setnav(!nav)}  to={link} smooth duration={500}>{link}</Link>
+                            </li>
+
                         ))}
 
                     </ul>

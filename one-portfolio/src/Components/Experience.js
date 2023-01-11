@@ -55,15 +55,21 @@ const experiences = [
     },
     {
         id: 8,
-        title: "Laravel",
-        src: laravel,
-
+        title: "Wordpress",
+        src: wordpress,
     },
     {
         id: 9,
         title: "Github",
         src: github,
     },
+    {
+        id: 10,
+        title: "Laravel",
+        src: laravel,
+
+    },
+
    
 ];
 
@@ -71,7 +77,7 @@ const experiences = [
 function Experience() {
     return (
         <div id="experience" className="w-full h-full bg-gradient-to-b from-gray-800 to-black text-white">
-            <div className="max-w-screen-xl mx-auto py-36 text-center md:text-left">
+            <div className="max-w-screen-2xl mx-auto py-36 text-center md:text-left">
                 <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-white font-bold pb-8 ">
                     My Tech Stack
                 </h2>
@@ -79,7 +85,7 @@ function Experience() {
                 <div className="grid lg:grid-cols-3 gap-8">
                     {experiences.map(({ id, title, src }) => (
                         <div
-                            key={id}  className="flex flex-col lg:flex-row gap-10 lg:gap-0 items-center justify-between p-10 rounded-lg shadow-md shadow-accent-50">
+                            key={id}  className="flex flex-col lg:flex-row gap-10 lg:gap-0 items-center justify-between p-10 rounded-lg shadow-md shadow-accent-50 hover:scale-105 duration-300">
                             <img src={src} width="64px" height="64px" alt={title} />
                             <h3 className="font-medium text-xl ">{title}</h3>
                         </div>
