@@ -78,7 +78,7 @@ function Home() {
               </ul>
             </div>
 
-            <a href='/resume.pdf' download className='group text-white text-xl w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-400 to-indigo-500'>
+            <a href='./resume.pdf' download className='group text-white text-xl w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-400 to-indigo-500'>
               My Resume
               <span className='group-hover:rotate-90 duration-300 ml-1'>
                 <MdOutlineKeyboardArrowRight size={25} />
