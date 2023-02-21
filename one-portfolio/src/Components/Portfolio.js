@@ -23,14 +23,14 @@ function Portfolio() {
             link: "Plantify Figma Mockup",
             href: "https://www.behance.net/gallery/126968495/Plantify-Mockups"
         },
+        // {
+        //     id: 3,
+        //     src: Sappi,
+        //     link: "Sappi Website",
+        //     href: "https://sappi-website-65p2420o9-gaaame.vercel.app/"
+        // },
         {
             id: 3,
-            src: Sappi,
-            link: "Sappi Website",
-            href: "https://sappi-website-65p2420o9-gaaame.vercel.app/"
-        },
-        {
-            id: 4,
             src: vetAdmin,
             link: "MyVet Mockup",
             href: "https://www.behance.net/gallery/126970597/MyVet-Mockups"

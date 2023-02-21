@@ -6,18 +6,15 @@ import Navbar from "./Components/Navbar";
 import Portfolio from "./Components/Portfolio";
 
 
-
 function App() {
   return (
     <div>
       <Navbar />
       <Home />
       <About />
-      <Portfolio/>
-      <Experience/>
-      <Contact/>
-
-
+      <Portfolio />
+      <Experience />
+      <Contact />
     </div>
   );
 }
