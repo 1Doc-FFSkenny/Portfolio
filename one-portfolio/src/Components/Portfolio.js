@@ -5,6 +5,8 @@ import Eagro from '../img/Eagro.png';
 import Plantify1 from '../img/Plantify1.png';
 import Sappi from '../img/Sappi.png';
 import vetAdmin from '../img/Vetadmin.png';
+import backroad from '../img/Backroad.png';
+import photo from '../img/photo.png'
 
 function Portfolio() {
 
@@ -15,7 +17,7 @@ function Portfolio() {
             src: Eagro,
             link: "E Agro Website",
             href: "https://ken.onedoc.ph/index.php/en/home/"
-           
+
         },
         {
             id: 2,
@@ -23,18 +25,26 @@ function Portfolio() {
             link: "Plantify Figma Mockup",
             href: "https://www.behance.net/gallery/126968495/Plantify-Mockups"
         },
-        // {
-        //     id: 3,
-        //     src: Sappi,
-        //     link: "Sappi Website",
-        //     href: "https://sappi-website-65p2420o9-gaaame.vercel.app/"
-        // },
         {
             id: 3,
             src: vetAdmin,
             link: "MyVet Mockup",
             href: "https://www.behance.net/gallery/126970597/MyVet-Mockups"
         },
+        {
+            id: 4,
+            src: backroad,
+            link: "Backroads Travel Website",
+            href: "https://backroadstourismoffical.netlify.app/"
+        },
+        {
+            id: 5,
+            src: photo,
+            link: "Photography Portfolio UI/UX Case Study",
+            href: "https://www.behance.net/gallery/175292137/Simple-Green-and-White-Photography-Portfolio"
+        }
+
+
 
     ]
 
@@ -48,7 +58,7 @@ function Portfolio() {
                 <div className='items-baseline grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0'>
                     {portfolio.map(({ id, src, link, href }) =>
                         <div key={id} className=' rounded-lg '>
-                           
+
                             <h2 className='text-2xl capitalize font-semibold mb-2 text-center md:text-left'>{link}</h2>
                             <img src={src} alt="" className='rounded-md bg-auto duration-200 hover:scale-105 h-auto max-h-lg' />
                             <div className='flex items-center justify-center shadow-md shadow-gray-600'>
