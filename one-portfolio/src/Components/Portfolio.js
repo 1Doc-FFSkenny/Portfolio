@@ -1,12 +1,13 @@
 import React from 'react'
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 
 import Eagro from '../img/Eagro.png';
 import Plantify1 from '../img/Plantify1.png';
-import Sappi from '../img/Sappi.png';
+// import Sappi from '../img/Sappi.png';
 import vetAdmin from '../img/Vetadmin.png';
 import backroad from '../img/Backroad.png';
 import photo from '../img/photo.png'
+import generator from '../img/Color-Generator.png'
 
 function Portfolio() {
 
@@ -27,21 +28,21 @@ function Portfolio() {
         },
         {
             id: 3,
-            src: vetAdmin,
-            link: "MyVet Mockup",
-            href: "https://www.behance.net/gallery/126970597/MyVet-Mockups"
-        },
-        {
-            id: 4,
             src: backroad,
             link: "Backroads Travel Website",
             href: "https://backroadstourismoffical.netlify.app/"
         },
         {
-            id: 5,
+            id: 4,
             src: photo,
             link: "Photography Portfolio UI/UX Case Study",
             href: "https://www.behance.net/gallery/175292137/Simple-Green-and-White-Photography-Portfolio"
+        },
+        {
+            id: 5,
+            src: generator,
+            link: "React Color Generator",
+            href: "https://react-color-generate.netlify.app/"
         }
 
 
